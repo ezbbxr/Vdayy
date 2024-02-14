@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be My Valentine</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Will You Be My Valentine?</h1>
+    </header>
+    
+    <main>
+        <div class="content">
+            <p>Hello Mano,</p>
+            <p>I'm Ezan, and I have a question for you:</p>
+            <form id="valentineForm">
+                <label for="valentineAnswer">Will you be my Valentine?</label><br>
+                <button type="button" id="yesButton" onclick="showAnimation()">Yes</button>
+                <button type="button" id="noButton" onclick="showNoResponse()">No</button>
+            </form>
+            <div id="animationContainer">
+                <img src="heart.gif" alt="Heart Animation">
+                <p>Yay! Thank you, Mano! 😊❤️</p>
+            </div>
+            <div id="noResponse">
+                <p>Oh no! That wasn't an option. Let's try again! 😄</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ezan. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
