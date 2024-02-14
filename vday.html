@@ -14,11 +14,13 @@
     <main>
         <div class="content">
             <p>Hello Mano,</p>
-            <p>I'm Ezan, and I have a question for you:</p>
+            <p>HEYYY MANOOOOOO REMEMBER ME ITS ME EZAANNNN, and I have a question for you:</p>
             <form id="valentineForm">
-                <label for="valentineAnswer">Will you be my Valentine?</label><br>
-                <button type="button" id="yesButton" onclick="showAnimation()">Yes</button>
-                <button type="button" id="noButton" onclick="showNoResponse()">No</button>
+                <label for="valentineAnswerYes">Yes</label>
+                <input type="radio" id="valentineAnswerYes" name="valentineAnswer" value="yes">
+                <label for="valentineAnswerNo">No</label>
+                <input type="radio" id="valentineAnswerNo" name="valentineAnswer" value="no">
+                <button type="button" onclick="submitAnswer()">Submit</button>
             </form>
             <div id="animationContainer">
                 <img src="heart.gif" alt="Heart Animation">
